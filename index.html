@@ -154,7 +154,7 @@
                                                     <label class="sr-only" for="passphrase">Passphrase</label>
                                                     <div class="input-group">
                                                         <div class="input-group-addon"><span class="glyphicon glyphicon-text-background" aria-hidden="true"></span></div>
-                                                        <input class="form-control" name="passphrase" placeholder="Passphrase" id="passphrase" pattern=".{5,}" title="" required="" data-original-title="Enter a passphrase; at least 5 characters" data-cip-id="passphrase" type="password">
+                                                        <input class="form-control" name="passphrase" placeholder="Passphrase" id="passphrase" pattern=".{5,}" title="" required="" data-original-title="Enter a passphrase; at least 5 characters" data-cip-id="passphrase" type="password" autocomplete="current-password">
                                                         <div class="input-group-addon">Required</div>
                                                     </div>
                                                     <span id="helpBlock" class="help-block"><a href="#" data-toggle="popover" title="" data-content="Passphrase is a like a password to protect your private PGP key. This password offers an extra layer of protection in case someone manage to steal your public PGP key. Please pick a password you will remember, because if you forget this password, there is no way to recover your password and no way for you to decrypt PGP messages sent to you!" data-original-title="Passphrase">Passphrase: What is this?</a></span>
@@ -213,7 +213,7 @@
                                             <br>
                                             <div class="input-group">
                                                 <div class="input-group-addon"><span class="glyphicon glyphicon-text-background" aria-hidden="true"></span></div>
-                                                <input class="form-control" name="sign-passphrase" placeholder="Passphrase for private key" id="sign-passphrase" pattern=".{5,}" title="Enter your private key passphrase" type="password">
+                                                <input class="form-control" name="sign-passphrase" placeholder="Passphrase for private key" id="sign-passphrase" pattern=".{5,}" title="Enter your private key passphrase" type="password" autocomplete="current-password">
                                             </div>
 
                                         </div>
@@ -326,7 +326,7 @@
 
                                             <div class="input-group">
                                                 <div class="input-group-addon"><span class="glyphicon glyphicon-text-background" aria-hidden="true"></span></div>
-                                                <input class="form-control" name="sign-passphrase" placeholder="Passphrase for private key" id="signencrypt-passphrase" pattern=".{5,}" title="Enter your private key passphrase" type="password">
+                                                <input class="form-control" name="sign-passphrase" placeholder="Passphrase for private key" id="signencrypt-passphrase" pattern=".{5,}" title="Enter your private key passphrase" type="password" autocomplete="current-password">
                                             </div>
 
                                         </div>
@@ -381,7 +381,7 @@
 
                                             <div class="input-group">
                                                 <div class="input-group-addon"><span class="glyphicon glyphicon-text-background" aria-hidden="true"></span></div>
-                                                <input class="form-control" name="decryption-passphrase" placeholder="Passphrase for private key" id="decryption-passphrase" pattern=".{5,}" title="Enter your private key passphrase" type="password">
+                                                <input class="form-control" name="decryption-passphrase" placeholder="Passphrase for private key" id="decryption-passphrase" pattern=".{5,}" title="Enter your private key passphrase" type="password" autocomplete="current-password">
                                             </div>
                                         </div>
                                     </div>
